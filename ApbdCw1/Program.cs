@@ -30,5 +30,7 @@ namespace ApbdCw1
             double average = StatisticsHelper.CalculateAverage(numbers);
             Console.WriteLine($"Average: {average}");
         }
+int min = StatisticsHelper.CalculateMin(numbers);
+Console.WriteLine($"Minimum: {min}");
     }
 }
