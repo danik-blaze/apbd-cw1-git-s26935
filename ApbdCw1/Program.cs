@@ -6,7 +6,7 @@ namespace ApbdCw1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter numbers (space separated):");
+Console.WriteLine("Enter numbers separated by spaces:");
             string input = Console.ReadLine();
             
             if (string.IsNullOrWhiteSpace(input))
