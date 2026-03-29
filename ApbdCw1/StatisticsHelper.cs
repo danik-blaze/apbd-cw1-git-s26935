@@ -24,7 +24,12 @@ public static int CalculateMax(int[] numbers)
 }
 public static int CalculateMin(int[] numbers)
 {
-    throw new NotImplementedException();
+    if (numbers == null || numbers.Length == 0)
+        throw new ArgumentException("Array cannot be empty");
+    int min = numbers[0];
+    foreach (int num in numbers)
+        if (num < min) min = num;
+    return min;
 }
 
 } 
