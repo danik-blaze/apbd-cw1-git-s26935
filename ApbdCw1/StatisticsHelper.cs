@@ -22,5 +22,9 @@ public static int CalculateMax(int[] numbers)
         if (num > max) max = num;
     return max;
 }
+public static int CalculateMin(int[] numbers)
+{
+    throw new NotImplementedException();
+}
 
 } 
